@@ -85,9 +85,9 @@
 
         <x-modal wire:model="viewModal" title="View Details">
             <x-form>
-                <x-input lebel="Parents name" wire:model="parent_name" disabled />
-                <x-input label="Name" wire:model="name" disabled />
-                <x-input label="Age" wire:model="age" disabled />
+                <x-input label="Parents name" wire:model="parent_name" disabled />
+                <x-input label="Child Name" wire:model="name" disabled />
+                <x-input label="Child Age" wire:model="age" disabled />
             </x-form>
         </x-modal>
         </x-slot:content>

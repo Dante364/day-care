@@ -41,9 +41,11 @@ class ViewChildren extends Component
             'parents_id' => $this->parent_id,
         ]);
 
+        $this->addModal = false;
+        
         $this->success('Your child has been added to the system successfully');
 
-        $this->addModal = false;
+        
 
         $this->name = '';
         $this->age = '';

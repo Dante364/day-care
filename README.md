@@ -6,10 +6,12 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Online Day Care Management System</h3>
+  <h3 align="center">Kindy Joy A Web-based Information Management Application for Daycare Centers </h3>
 
   <p align="center">
-    Bringing efficiency to management of day care centers
+    ### Description
+Daycare centers in Kenya face significant administrative challenges due to outdated manual bookkeeping, leading to delays and inefficiencies. Our web-based daycare management system addresses these issues by providing a centralized platform for managing staff, parent, and child data, improving payment tracking, and creating organized schedules. Additionally, the system includes a robust notification feature to enhance communication among parents and staff, fostering a sense of community. This comprehensive solution streamlines administrative operations, enhances productivity, and ensures smooth daycare management.
+
     <br />
     <a href="https://github.com/kindy-joy"><strong>Explore the docs »</strong></a>
     <br />
@@ -26,7 +28,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+ <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
@@ -37,12 +39,12 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#dependencies">Dependencies</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -57,7 +59,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-An Kindagarten Management System
+A Kindegarten Management System
 
 
 
@@ -81,29 +83,35 @@ An Kindagarten Management System
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To run the project...
+To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-Please ensure you first have there installed before running the project.
-* npm/bun/yarn
-* php v8.2^
-* composer
-* sqlite
+### Dependencies
+Ensure you have the following installed:
+* Node.js (npm/yarn)
+* PHP >= 8.2
+* Composer
+* SQLite
 
 ### Installation
-
-1. Clone the repo and navigate to the kindy-joy directory
+1. Clone the repository
    ```sh
    git clone https://github.com/mangong34/kindy-joy
-   ```
-2. Run necessary commands for the project
-   ```sh
-   composer start
-   ```
+   cd kindy-joy
 
+2.Install Composer Dependencies
 
-_And that's it!_
+    composer install
+
+3.Install NPM dependecies
+
+   npm install
+
+4.Set up environment file
+   cp .env.example .env
+   php artisan key:generate
+
+5.Run the development server
+  php artisan serve
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,12 +119,19 @@ _And that's it!_
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-
+Usage
+How to Run
+To start the application, navigate to the project directory and run:
+  php artisan serve
+Then, open your web browser and visit http://127.0.0.1:8000.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+#Input/Output
+Input: User data, day care details, scheduling information.
+Output: Management reports, billing information, schedules.
 
 
 

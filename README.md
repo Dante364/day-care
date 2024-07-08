@@ -92,6 +92,16 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 ## Key Files
+app/Http/Controllers/: Contains the controllers which handle the HTTP requests and return responses.<br>
+app/Models/: Contains the Eloquent models which interact with the database.<br>
+database/migrations/: Contains the database migration files which manage the database schema.<br>
+resources/views/: Contains the Blade templates which render the HTML views.<br>
+routes/web.php: Defines the web routes for the application.<br>
+routes/api.php: Defines the API routes for the application.<br>
+.env: Environment configuration file for managing environment-specific settings.<br>
+composer.json: Lists the Composer dependencies for the project.<br>
+package.json: Lists the NPM dependencies for the project.<br>
+artisan: Laravel's command-line interface for running various Artisan commands.<br>
 
 
 

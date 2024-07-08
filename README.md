@@ -4,7 +4,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="left">
 
   <h3 align="center">Kindy Joy A Web-based Information Management Application for Daycare Centers </h3>
 

@@ -138,6 +138,8 @@ Project Link: [https://github.com/mangong34/kindy-joy](https://github.com/mangon
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
+Thanks to the developers of Laravel,Tailwind CSS,Bootstrap,Livewire and Daisy UI powerful tools
+
 
 
 

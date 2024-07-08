@@ -89,25 +89,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <h3>Input/Output</h3>
 <b>Input</b>: User data, day care details, scheduling information.<br>
 <b>Output</b>: Management reports, billing information, schedules.
-
-
-## Key Files
-app/Http/Controllers/: Contains the controllers which handle the HTTP requests and return responses.<br>
-app/Models/: Contains the Eloquent models which interact with the database.<br>
-database/migrations/: Contains the database migration files which manage the database schema.<br>
-resources/views/: Contains the Blade templates which render the HTML views.<br>
-routes/web.php: Defines the web routes for the application.<br>
-routes/api.php: Defines the API routes for the application.<br>
-.env: Environment configuration file for managing environment-specific settings.<br>
-composer.json: Lists the Composer dependencies for the project.<br>
-package.json: Lists the NPM dependencies for the project.<br>
-artisan: Laravel's command-line interface for running various Artisan commands.<br>
-
-
-
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -126,16 +109,155 @@ Don't forget to give the project a star! Thanks again!
 
 
 ## Project Structure
+<h3>Overview</h3>
+<pre>
+├── .editorconfig
+├── .env
+├── .env.example
+├── .gitattributes
+├── .gitignore
+├── .vscode/
+│   └── settings.json
+├── app/
+│   ├── Http/
+│   ├── Livewire/
+│   ├── Models/
+│   ├── Providers/
+│   └── View/
+├── artisan
+├── bootstrap/
+│   ├── app.php
+│   └── cache/
+│       └── providers.php
+├── bun.lockb
+├── composer.json
+├── composer.lock
+├── config/
+│   ├── app.php
+│   ├── auth.php
+│   ├── cache.php
+│   ├── database.php
+│   ├── filesystems.php
+│   ├── logging.php
+│   ├── mail.php
+│   ├── queue.php
+│   ├── services.php
+│   ├── session.php
+│   └── ...
+├── database/
+├── package.json
+├── phpunit.xml
+├── postcss.config.js
+├── public/
+├── README.md
+├── resources/
+├── routes/
+├── storage/
+├── tailwind.config.js
+├── tests/
+├── vendor/
+└── vite.config.js
+</pre>
+
+## Key Files
+<pre>
+### Key Files in the Project
+
+## `.editorconfig`
+Defines coding styles for the project to maintain consistency across different editors and IDEs.
+
+### `.env.example`
+Serves as a template for the `.env` file, which contains environment-specific variables such as database credentials and API keys. Users should copy this file to `.env` and set the appropriate values.
+
+### `.gitattributes`
+Specifies attributes for files in the repository, such as line endings, diff settings, and merge strategies.
+
+### `.gitignore`
+Lists files and directories that should be ignored by Git, preventing them from being tracked in the version control system.
+
+### `README.md`
+Provides an overview of the project, including installation instructions, usage guidelines, and other relevant information.
+
+### `artisan`
+The command-line interface included with Laravel, used for running various Artisan commands to manage and build the application.
+
+### `composer.json`
+Specifies the dependencies and package information for the project. It is used by Composer to install and manage PHP packages.
+
+### `composer.lock`
+Locks the versions of the dependencies listed in `composer.json` to ensure consistent installations across different environments.
+
+### `package.json`
+Specifies the JavaScript dependencies and scripts for the project. It is used by npm or yarn to install and manage these dependencies.
+
+### `phpunit.xml`
+Configuration file for PHPUnit, specifying how tests should be run.
+
+### `postcss.config.js`
+Configuration file for PostCSS, a tool for transforming CSS with JavaScript plugins.
+
+### `tailwind.config.js`
+Configuration file for Tailwind CSS, a utility-first CSS framework.
+
+### `vite.config.js`
+Configuration file for Vite, a front-end build tool and development server.
+
+### `bootstrap/app.php`
+Bootstraps the Laravel application by loading the necessary configurations and services.
+
+### `config/app.php`
+Contains the configuration settings for the Laravel application, such as timezone, locale, and service providers.
+
+### `config/auth.php`
+Configuration file for the authentication services in the application.
+
+### `config/cache.php`
+Defines the cache settings for the application.
+
+### `config/database.php`
+Specifies the database connections and settings for the application.
+
+### `config/filesystems.php`
+Configuration for the file storage systems used by the application.
+
+### `config/logging.php`
+Defines the logging settings and channels for the application.
+
+### `config/mail.php`
+Configuration for the mail services used by the application.
+
+### `config/queue.php`
+Specifies the queue connections and settings for handling background jobs.
+
+### `config/services.php`
+Contains the configuration for various third-party services used by the application.
+
+### `config/session.php`
+Defines the session management settings for the application.
+
+### `bootstrap/cache/.gitignore`
+Prevents cached configuration files from being tracked by Git.
+
+### `storage/app/.gitignore`
+Prevents files in the storage directory from being tracked by Git.
+
+### `storage/app/public/.gitignore`
+Prevents public storage files from being tracked by Git.
+
+### `storage/framework/.gitignore`
+Prevents framework-specific storage files from being tracked by Git.
+```
+</pre>
+
+## Additional Sections
 
 
-<!-- LICENSE -->
-## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+## Project Status
+Pending
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+## Known issues
+None at the moment
 
 <!-- CONTACT -->
 ## Contact
@@ -145,14 +267,16 @@ Project Link: [https://github.com/mangong34/kindy-joy](https://github.com/mangon
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 Thanks to the developers of Laravel,Tailwind CSS,Bootstrap,Livewire and Daisy UI powerful tools
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+## License
 
-
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

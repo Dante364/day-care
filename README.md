@@ -6,66 +6,20 @@
 <br />
 <div align="left">
 
-  <h3 align="center">Kindy Joy A Web-based Information Management Application for Daycare Centers </h3>
+  <h1 align="left">Kindy Joy A Web-based Information Management Application for Daycare Centers </h1>
+  <h2 align="left">Description</h2>
+  <p align="left">
+     
+Daycare centers in Kenya face significant administrative challenges due to outdated manual bookkeeping, leading to delays and inefficiencies.
+My Web-based Information Management Application "Kindy-joy"addresses these issues by providing a centralized platform for managing staff, parent,
+and child data, improving payment tracking, and creating organized schedules. Additionally, the system includes a robust notification feature to 
+enhance communication among parents and staff, fostering a sense of community. This comprehensive solution streamlines administrative operations,
+enhances productivity, and ensures smooth daycare management.
 
-  <p align="center">
-    ### Description
-Daycare centers in Kenya face significant administrative challenges due to outdated manual bookkeeping, leading to delays and inefficiencies. Our web-based daycare management system addresses these issues by providing a centralized platform for managing staff, parent, and child data, improving payment tracking, and creating organized schedules. Additionally, the system includes a robust notification feature to enhance communication among parents and staff, fostering a sense of community. This comprehensive solution streamlines administrative operations, enhances productivity, and ensures smooth daycare management.
-
-    <br />
-    <a href="https://github.com/kindy-joy"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/kindy-joy">View Demo</a>
-    ·
-    <a href="https://github.com/kindy-joy/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/kindy-joy/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
- <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#dependencies">Dependencies</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#project-structure">Project Structure</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-A Kindegarten Management System
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<h2>Project Setup/Installation Instructions</h2>
 
 ### Built With
 
@@ -98,40 +52,47 @@ Ensure you have the following installed:
    git clone https://github.com/mangong34/kindy-joy
    cd kindy-joy
 
-2.Install Composer Dependencies
+2.Install Composer Dependencies:
 
     composer install
 
-3.Install NPM dependecies
+3.Install NPM dependecies: 
 
-   npm install
+    npm install
 
 4.Set up environment file
-   cp .env.example .env
-   php artisan key:generate
+
+    cp .env.example .env
+    php artisan key:generate
 
 5.Run the development server
-  php artisan serve
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+      php artisan serve
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Usage
-How to Run
-To start the application, navigate to the project directory and run:
-  php artisan serve
-Then, open your web browser and visit http://127.0.0.1:8000.
+
+<h3>How to Run</h3>
+1.Start the application <br>
+2.Navigate to the project directory and run:
+      
+      
+     php artisan serve
+3.Then, open your web browser and visit http://127.0.0.1:8000.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-#Input/Output
-Input: User data, day care details, scheduling information.
-Output: Management reports, billing information, schedules.
+<h3>Input/Output</h3>
+<b>Input</b>: User data, day care details, scheduling information.<br>
+<b>Output</b>: Management reports, billing information, schedules.
+
+
+## Key Files
+
 
 
 
@@ -152,6 +113,9 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
+## Project Structure
 
 
 <!-- LICENSE -->
